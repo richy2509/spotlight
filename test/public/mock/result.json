@@ -1,0 +1,55 @@
+{
+    "searchQuery": "query",
+    "nbItems": 11,
+    "results": [{
+            "code": "${query}",
+            "label": "${query} in page",
+            "type": "url"
+        },
+        {
+            "code": "${query}2",
+            "label": "${query} 2 in page",
+            "type": "url"
+        },
+        {
+            "code": "${query}3",
+            "label": "${query} 3 in page",
+            "type": "url"
+        },
+        {
+            "code": "${query}2",
+            "label": "${query} 2 in page",
+            "type": "url"
+        },
+        {
+            "code": "${query}2",
+            "label": "${query} 2 in page",
+            "type": "url"
+        },
+        {
+            "code": "${query}2",
+            "label": "${query} 2 in page",
+            "type": "url"
+        },
+        {
+            "code": "${query}2",
+            "label": "${query} 2 in page",
+            "type": "url"
+        },
+        {
+            "code": "${query}2",
+            "label": "${query} 2 in page",
+            "type": "url"
+        },
+        {
+            "code": "${query}2",
+            "label": "${query} 2 in page",
+            "type": "url"
+        },
+        {
+            "code": "${query}2",
+            "label": "${query} 2 in page",
+            "type": "url"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+/* ---------------------------------------
+ * PAGE STYLE
+ */
+
+  .align-center { text-align: center; }
+  a { color: #17a2b8; }
+  .highlight { background-color: #f1f1f1; padding: 40px 0; }
+  .block { margin-top: 20px; margin-bottom: 20px; }
+  .code { margin: 0 0 40px; }
+  .code small.badge { font-size: 50%; margin-top: 8px; float: right; }
+  .image { width: 30%; margin: 5px 20px 10px 0; float: left; }
+  .footer { background-color: #333232; margin-bottom: 0; }
+  .copyright { margin-bottom: 0; padding: 20px; }
+
+  .display-3 { font-size: 2rem; overflow: hidden; text-overflow: ellipsis; }
+  @media screen and (min-width: 768px) {
+    .display-3 { font-size: 3.5rem; }
+  }
+  @media screen and (min-width: 992px) {
+    .display-3 { font-size: 4.5rem;  }
+  }

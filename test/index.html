@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Spotlight search bar - default test page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css" />
+</head>
+
+<body>
+  <div class="highlight">
+    <header class="container">
+      <div class="align-center">
+        <h1 class="display-3">Spotlight</h1>
+        <p>This Spotlight search bar is a widget.</p>
+      </div>
+    </header>
+  </div>
+  <div class="container block">
+    <h2 class="block">Test with default options</h2>
+    <div class="code">
+      <h4>Example with standalone JavaScript integration
+        <small class="badge badge-info">HTML integration</small>
+      </h4>
+      <pre><code class="html">
+        &lt;!-- SCRIPTS --&gt;
+        &lt;script type="text/javascript" src="your-web-static-path/spotlight.min.js"&gt;&lt;/script&gt;
+        </code></pre>
+    </div>
+  </div>
+
+  <div class="highlight">
+    <div class="container">
+      <section class="clearfix spotlight-container">
+        <span id="spotlightOpener"></span>
+      </section>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="clearfix">
+      <hr>
+      <p class="clearfix">
+        <img src="caraibes.jpg" alt="" class="image"> Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines
+        dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur
+        du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait
+        d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la
+        source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et
+        Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron.
+      </p>
+    </section>
+  </div>
+
+  <div class="highlight">
+
+    <div class="container block">
+      <section>
+        <h3>Actions</h3>
+        <p>Click on the search bar activate the widgets</p>
+      </section>
+    </div>
+
+  </div>
+
+  <!-- EXTRA JS PRESENTATION -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- MANDATORY LIBRARIES -->
+  <script id="spotlight" src="/richy2509.spotlight.min.js" data-url="/mock/result.json"></script>
+
+  <script>
+    console.info("Spotlight triggered to be loaded !");
+    $("#spotlightOpener").trigger("click");
+    $("form button").trigger("click");
+    
+  </script>
+
+</body>
+
+</html>

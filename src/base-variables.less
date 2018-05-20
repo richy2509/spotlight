@@ -1,0 +1,123 @@
+/**
+ * VARIABLES
+ *
+ * @type base
+ */
+
+/** ----------------------------------------------------------------
+ * COLOR
+ */
+
+@brand-primary: #c0a76f;
+
+// BASE
+@white: #fff;
+@black: #000;
+
+// DEFAULT BASE GRAY
+@gray: #ececea;
+
+// GENERIC GRAY
+@gray-a: #aaa;
+@gray-b: #bbb;
+@gray-c: #ccc;
+@gray-d: #ddd;
+@gray-e: #eee;
+@gray-1: #111;
+@gray-2: #222;
+@gray-3: #333;
+@gray-4: #444;
+@gray-5: #555;
+@gray-6: #666;
+@gray-7: #777;
+@gray-8: #888;
+@gray-9: #999;
+
+// SPECIFIC
+@gray-dfd: #dfdfdf;
+@gray-fbf: #fbfbfb;
+@gray-ee: #eeeeee;
+@gray-d9: #d9dad4;
+@gray-d2: #d2d2d2;
+@gray-f6: #f6f6f6;
+@color-issue: #95989a;
+@color-orchestra: #ed342c;
+@color-logo-darken: #c0a76f;
+@color-logo-badge: #e4231d;
+
+/** ----------------------------------------------------------------
+ * TYPE
+ */
+
+// FAMILY
+@font-family-base: Arial, sans-serif;
+// custom primary
+@font-family-primary: "Roboto", @font-family-base;
+
+// FONT SIZE
+@font-size-yotta: 40px;
+@font-size-zeta: 30px;
+@font-size-exa: 28px;
+@font-size-peta: 26px;
+@font-size-tera: 24px;
+@font-size-giga: 22px;
+@font-size-mega: 20px;
+@font-size-kilo: 19px;
+@font-size-hecto: 18px;
+@font-size-deca: 17px;
+@font-size-base: 16px; // default size
+@font-size-deci: 15px;
+@font-size-centi: 14px;
+@font-size-milli: 13px;
+@font-size-micro: 12px;
+@font-size-nano: 11px;
+@font-size-pico: 10px;
+@font-size-fento: 9px;
+@font-size-atto: 8px;
+
+/** ----------------------------------------------------------------
+ * SPACING
+ */
+
+// PADDING BASE
+@padding-yotta: 50px;
+@padding-zeta: 40px;
+@padding-exa: 35px;
+@padding-peta: 30px;
+@padding-tera: 25px;
+@padding-giga: 20px;
+@padding-mega: 18px;
+@padding-kilo: 16px;
+@padding-hecto: 14px;
+@padding-deca: 12px;
+@padding-base: 10px;
+@padding-deci: 9px;
+@padding-centi: 8px;
+@padding-milli: 7px;
+@padding-micro: 6px;
+@padding-nano: 5px;
+@padding-pico: 4px;
+@padding-fento: 3px;
+@padding-atto: 2px;
+
+// BORDER
+@border-base-radius: 10px;
+@border-small-radius: 5px;
+@border-button-radius: 4px;
+@border-badge-radius: 15px;
+
+// GUTTER
+@gutter-base: @padding-base * 2;
+
+/** ----------------------------------------------------------------
+ * IMAGES
+ */
+
+@icon-screenshot: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAIAAADZrBkAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2ODQ5OUZDNkI4MUIxMUU3OTVGOUVBMUVFMTI3MEEwNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2ODQ5OUZDN0I4MUIxMUU3OTVGOUVBMUVFMTI3MEEwNyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY4NDk5RkM0QjgxQjExRTc5NUY5RUExRUUxMjcwQTA3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY4NDk5RkM1QjgxQjExRTc5NUY5RUExRUUxMjcwQTA3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+MLdxsgAAASBJREFUeNq0U8uKhDAQTDQ+EAYUFEHQk///P4IX9SSKeFHwvTVmp8nO7HoQtg6x03bFdFXLh2Go63pZFvZCEASe5zEFRVFM0yRjwzDCMBSSo2kaFXHO2U9oJ2SMYlCE5KRpyv5GHMcU53n+pLBbuEkTn6l93/u+H8cRseM4ruuqnX/3P88zNBBCEKeqKtINsCwLvRFzXdfjOAQEVY/pug4cJH3fx7ZtW2yRlNvn9c4PvH8dNmKFM48TCCh5JQkuII0ixyh5RbNtG2vTNMsJBJS8kgSlZVlu20YVuq4nSUISSEl4lmVvU4KDoAQZADFM01SnBGr/4huKoij6lym5O1zoFTLgxpRCMxgotUidGzQGigZD8dgVfLqkvpW/6ZcAAwCoF7OR1ew74gAAAABJRU5ErkJggg==";
+@icon-attachment: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQpJREFUeNqclH0LgjAQxnUmlogkEUTk9/9c0T9WiFFWSiTdwXNxDLXZ4GEvbr89d5zzPfeWkNakEPOadCa9eOI7QjakFGM+GJAMqSPteS2YCClIR9KFNCPNAa3NRMgVY3ZywnjhwZ4rhHMSqe8d+mAM1AfJIUn2Cv1jCDQEiZDoN74LqPSQsD4I2z7goEBarCXYJxe1tqPVHxBJ/hcUK6uTIRqUqnhdw9nqiIyuBWoViuwXJMd6JiBJdmjVhrRMhawhBqGVNugJVwxscCBSBdgHKfSNgXIUo+dNN9RLg3+rG4NoEN+2VC7Y4R0952w3BrGfkUjdKvBQzQchfe9RiOQmFrCy68ZuHwEGAJK3WWV8f7TnAAAAAElFTkSuQmCC";
+
+/** ----------------------------------------------------------------
+ * LAYOUT
+ */
+
+@bp-outside-mobile: 576px;
