@@ -4,6 +4,7 @@ import * as ReactDOM from "react-dom";
 import Layout from "./layout/index";
 import "./core.less";
 import axios from "axios"
+const cheet = require("cheet.js");
 
 /**
  * Initialize the widget
@@ -59,8 +60,12 @@ function handleOpenSpotlight(evt) {
         return;
     }
 
-    ReactDOM.render(<Layout />, evt.data.spotlightWrapper);
-    document.querySelector("#spotlight_wrapper").classList.add("spotlight_open");
+    cheet('ctrl space', function () {
+        console.log("God mod enabled!");
+        ReactDOM.render(<Layout />, evt.data.spotlightWrapper);
+        document.querySelector("#spotlight_wrapper").classList.add("spotlight_open");
+    });
+
 }
 
 /**
